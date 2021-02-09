@@ -1,0 +1,26 @@
+/*Add Selectors 
+
+You can not change ANYTHING inside the
+brackets or add additional rules
+*/
+
+.grid .item2, .grid .item5{
+	grid-column: 3/4;
+}
+
+ .grid .item3{
+	grid-column: 2/3;
+}
+
+.grid .item1, .grid .item4 {
+	grid-column: 1/2;
+}
+
+.grid .item_b{
+	grid-column: 3/4;
+}
+
+.grid .item_a{
+	grid-column: 3/4;
+	grid-row: 3/4;
+}
